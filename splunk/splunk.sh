@@ -4,13 +4,13 @@ DEBUG_LOG='/var/log/ccdc/splunk.log'
 GITHUB_URL="https://raw.githubusercontent.com/BYU-CCDC/public-ccdc-resources/main"
 INDEXES=( 'system' 'web' 'network' 'windows' 'misc' 'snoopy' )
 PM=""
-IP=""
+IP="34.201.163.171"
 INDEXER=false
 PACKAGE="auto"
 SPLUNK_HOME="/opt/splunkforwarder"
 # Special variables recognized by Splunk CLI for authentication
-SPLUNK_USERNAME="splunk"
-SPLUNK_PASSWORD=""
+SPLUNK_USERNAME="admin"
+SPLUNK_PASSWORD="Admin@123"
 SPLUNK_ONLY=false
 ADDITIONAL_LOGGING_ONLY=false
 SYSTEMD_SYSTEM=false
